@@ -1,0 +1,69 @@
+# jemdoc: menu{MENU}{applications.html}
+= Applications
+
+== Rotational Start-up of an Airborne Wind Energy System
+
+\n
+/Alright, what is Airborne Wind Energy (AWE) about?/ Good one, you can find more about it [http://en.wikipedia.org/wiki/Airborne\_wind\_turbine here] or just take a look at the video below.
+
+\n
+~~~
+{}{raw}
+<div align="center">
+<iframe width="640" height="390" src="//www.youtube.com/embed/1UmN3MiR65E" frameborder="0" allowfullscreen></iframe>
+</div>
+~~~
+\n
+
+And what are we doing at KU Leuven? Among many amazing things, we are modeling, simulating, optimizing and controlling AWE systems. Before the energy production, one needs to launch the kite in the sky. One way to do it is to utilize the concept of rotational start-up. We have made a small scale setup at our uni and we use that setup for testing and demonstration purposes. In particular, to play with fast algorithms and solvers for nonlinear Model Predictive Control (NMPC) and moving horizon estimation (MHE).
+
+\n
+~~~
+{}{raw}
+<div align="center">
+<iframe width="640" height="390" src="//www.youtube.com/embed/qta9N8gNRyk" frameborder="0" allowfullscreen></iframe>
+</div>
+~~~
+\n
+
+This is a work-in-progress video of a first person view on the Leuven kite carousel experiments. Here we demonstrate the closed loop performance with NMPC and MHE. The goal of the experiments is to achieve stable movements from one steady state to the other one, which are characterized mostly by the roll angle of the plane and the height of the plane.
+
+The system is modelled with an index-3 DAE ($n_x$ = 27, $n_u$ = 4, $n_z$ = 1). Both MHE and the NMPC work at 25 Hz. Horizon for the MHE is $N_\text{MHE} = 30$ intervals (1.2 seconds) and for the controller $N_\text{NMPC} = 50$ intervals (2 seconds).
+
+You can see the MHE horizons on the screen on right. The current pose estimate is the one which is not shaded.
+
+The screen on the left serves for live feed of the data coming from sensors and the data the controllers send to the actuators:
+- upper row: gyroscope, accelerometer and winch data.
+- lower row: control surfaces (ailerons and the elevator ctrl surfaces' deflection angles), main motor speed and control, and the line angle sensor data.
+
+=== Links to some software used for experiments
+
+- [http://www.acadotoolkit.org ACADO toolkit] -- code generation for NMPC and MHE
+- [http://www.casadi.org CasADi] -- nonlinear optimization and control, code generation for symbolics
+- [https://github.com/ghorn/rawesome rawesome] -- modeling environment for AWE
+- [http://www.orocos.org OROCOS] -- everything real-time related
+- [http://www.pyqtgraph.org/ PyQtGraph] -- awesome real-time capable line plotter in Python (yes, in Python)
+
+== Application of the NMPC and MHE to a laboratory scale overhead crane
+
+\n
+~~~
+{}{raw}
+<div align="center">
+<iframe width="640" height="390" src="//www.youtube.com/embed/YuiSrqe7rlo" frameborder="0" allowfullscreen></iframe>
+</div>
+~~~
+\n
+
+This was the first application of an auto-generated NMPC from ACADO toolkit. The experiments are explained in details in [http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6315390 this publication]. Althought the tracking is slow, we showed that we can run the so-called *r*eal-*t*ime *i*teration (RTI) scheme in hard real-time. Furthermore, experiments proved fast convergence rate of the RTI scheme. This implementation used a simple NMPC formulation and a simple estimator.
+
+Results of the improved experiments are published in [http://www.ifac-papersonline.net/Detailed/68307.html this paper]. We used more detailed model, and more complex formulation for the NMPC. Moreover, this time we used NMHE to properly estimate the states. As a results, faster motions are achieved. Here is the video of the improved experiments.
+
+\n
+~~~
+{}{raw}
+<div align="center">
+<iframe width="640" height="390" src="//www.youtube.com/embed/QEf05rTS-BE" frameborder="0" allowfullscreen></iframe>
+</div>
+~~~
+\n

@@ -1,0 +1,36 @@
+# jemdoc: menu{MENU}{index.html}
+= Milan Vukov
+
+~~~
+{}{img_left}{http://homes.esat.kuleuven.be/~mvukov/images/vukov.jpg}{Milan Vukov}{200px}
+
+*PhD candidate & research assistant*\n
+[http://www.esat.kuleuven.be/english Department of Electrical Engineering] and
+[http://set.kuleuven.be/optec/ Optimization in Engineering Center] \n
+[http://www.esat.kuleuven.be/sista/ Stadius Center for Dynamical Systems, Signal Processing and Data Analytics] \n
+[http://www.kuleuven.be/english KU Leuven], Belgium
+~~~
+
+= Contact Information
+
+~~~
+{}{table}{}
+*Mail* | ESAT - STADIUS, Stadius Centre for Dynamical\nSystems, Signal Processing and Data Analytics ||
+       | Kasteelpark Arenberg 10 - box 2446 ||
+	   | 3001 Heverlee, Belgium ||
+	   | ||
+*Office* | Room 05.11 ||
+*Phone*  | +32 16 3 28659 ||
+*E-mail*  | [milan.vukov@esat.kuleuven.be] ||
+*URL*    | [http://homes.esat.kuleuven.be/~mvukov] ||
+*GitHub* | [https://github.com/mvukov]
+~~~
+
+= Current Research Interests
+
+- Optimal control
+- *N*onlinear *M*odel *P*redictive *C*ontrol (NMPC)
+- *N*onlinear *M*oving *H*orizon *E*stimation (NMHE)
+- Fast software implementations of NMPC and NMHE
+- Mechatronic and aerospace applications
+- *A*irborne *W*ind *E*nergy

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Applications</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Milan Vukov</div>
+<div class="menu-item"><a href="index.html">Home</a></div>
+<div class="menu-item"><a href="cv.html">CV</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="projects.html">Projects</a></div>
+<div class="menu-item"><a href="software.html">Software</a></div>
+<div class="menu-item"><a href="applications.html" class="current">Applications</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+<div class="menu-item"><a href="http://scholar.google.com/citations?user=gnSTyOMAAAAJ&hl=en&oi=ao">Google&nbsp;Scholar&nbsp;Profile</a></div>
+<div class="menu-category">Miscellaneous</div>
+<div class="menu-item"><a href="http://www.kuleuven.be/kuleuven/disclaimer.html">Disclaimer</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Applications</h1>
+</div>
+<h2>Rotational Start-up of an Airborne Wind Energy System</h2>
+<p><br />
+<i>Alright, what is Airborne Wind Energy (AWE) about?</i> Good one, you can find more about it <a href="http://en.wikipedia.org/wiki/Airborne\_wind\_turbine" target=&ldquo;blank&rdquo;>here</a> or just take a look at the video below.</p>
+<p><br /></p>
+<div align="center">
+<iframe width="640" height="390" src="//www.youtube.com/embed/1UmN3MiR65E" frameborder="0" allowfullscreen></iframe>
+</div>
+<p><br /></p>
+<p>And what are we doing at KU Leuven? Among many amazing things, we are modeling, simulating, optimizing and controlling AWE systems. Before the energy production, one needs to launch the kite in the sky. One way to do it is to utilize the concept of rotational start-up. We have made a small scale setup at our uni and we use that setup for testing and demonstration purposes. In particular, to play with fast algorithms and solvers for nonlinear Model Predictive Control (NMPC) and moving horizon estimation (MHE).</p>
+<p><br /></p>
+<div align="center">
+<iframe width="640" height="390" src="//www.youtube.com/embed/qta9N8gNRyk" frameborder="0" allowfullscreen></iframe>
+</div>
+<p><br /></p>
+<p>This is a work-in-progress video of a first person view on the Leuven kite carousel experiments. Here we demonstrate the closed loop performance with NMPC and MHE. The goal of the experiments is to achieve stable movements from one steady state to the other one, which are characterized mostly by the roll angle of the plane and the height of the plane.</p>
+<p>The system is modelled with an index-3 DAE (\(n_x\) = 27, \(n_u\) = 4, \(n_z\) = 1). Both MHE and the NMPC work at 25 Hz. Horizon for the MHE is \(N_\text{MHE} = 30\) intervals (1.2 seconds) and for the controller \(N_\text{NMPC} = 50\) intervals (2 seconds).</p>
+<p>You can see the MHE horizons on the screen on right. The current pose estimate is the one which is not shaded.</p>
+<p>The screen on the left serves for live feed of the data coming from sensors and the data the controllers send to the actuators:</p>
+<ul>
+<li><p>upper row: gyroscope, accelerometer and winch data.</p>
+</li>
+<li><p>lower row: control surfaces (ailerons and the elevator ctrl surfaces&rsquo; deflection angles), main motor speed and control, and the line angle sensor data.</p>
+</li>
+</ul>
+<h3>Links to some software used for experiments</h3>
+<ul>
+<li><p><a href="http://www.acadotoolkit.org" target=&ldquo;blank&rdquo;>ACADO toolkit</a> &ndash; code generation for NMPC and MHE</p>
+</li>
+<li><p><a href="http://www.casadi.org" target=&ldquo;blank&rdquo;>CasADi</a> &ndash; nonlinear optimization and control, code generation for symbolics</p>
+</li>
+<li><p><a href="https://github.com/ghorn/rawesome" target=&ldquo;blank&rdquo;>rawesome</a> &ndash; modeling environment for AWE</p>
+</li>
+<li><p><a href="http://www.orocos.org" target=&ldquo;blank&rdquo;>OROCOS</a> &ndash; everything real-time related</p>
+</li>
+<li><p><a href="http://www.pyqtgraph.org/" target=&ldquo;blank&rdquo;>PyQtGraph</a> &ndash; awesome real-time capable line plotter in Python (yes, in Python)</p>
+</li>
+</ul>
+<h2>Application of the NMPC and MHE to a laboratory scale overhead crane</h2>
+<p><br /></p>
+<div align="center">
+<iframe width="640" height="390" src="//www.youtube.com/embed/YuiSrqe7rlo" frameborder="0" allowfullscreen></iframe>
+</div>
+<p><br /></p>
+<p>This was the first application of an auto-generated NMPC from ACADO toolkit. The experiments are explained in details in <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6315390" target=&ldquo;blank&rdquo;>this publication</a>. Althought the tracking is slow, we showed that we can run the so-called <b>r</b>eal-<b>t</b>ime <b>i</b>teration (RTI) scheme in hard real-time. Furthermore, experiments proved fast convergence rate of the RTI scheme. This implementation used a simple NMPC formulation and a simple estimator.</p>
+<p>Results of the improved experiments are published in <a href="http://www.ifac-papersonline.net/Detailed/68307.html" target=&ldquo;blank&rdquo;>this paper</a>. We used more detailed model, and more complex formulation for the NMPC. Moreover, this time we used NMHE to properly estimate the states. As a results, faster motions are achieved. Here is the video of the improved experiments.</p>
+<p><br /></p>
+<div align="center">
+<iframe width="640" height="390" src="//www.youtube.com/embed/QEf05rTS-BE" frameborder="0" allowfullscreen></iframe>
+</div>
+<p><br /></p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2015-04-29 17:49:27 CEST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-46671156-1', 'kuleuven.be');
+  ga('send', 'pageview');
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+		  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+</body>
+</html>
