@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{software.html}
+# jemdoc: menu{MENU}{software.html}, nofooter
 = Software projects
 
 = ACADO toolkit

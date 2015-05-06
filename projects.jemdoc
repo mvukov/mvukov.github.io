@@ -1,9 +1,9 @@
-# jemdoc: menu{MENU}{projects.html}
+# jemdoc: menu{MENU}{projects.html}, nofooter
 = Projects
 
 == [http://www.highwind.be HIGHWIND] 2011 - 2016
 
-The HIGHWIND research is carried out within the framework of OPTEC, the optimization in engineering center of KU Leuven. The airborne wind energy research at OPTEC is centered around the optimization and control aspects of this new technology and only to a lesser degree on experiments. Research has shown that fast and accurate algorithms are needed to control the kites under challenging conditions, such as during “takeoff” and “landing” of the kites as well as during sudden changes in wind speed or direction. Solving these issues are critical to the success of kite energy.
+The HIGHWIND research was carried out within the framework of OPTEC, the optimization in engineering center of KU Leuven. The airborne wind energy research at OPTEC was centered around the optimization and control aspects of this new technology and only to a lesser degree on experiments. Research has shown that fast and accurate algorithms are needed to control the kites under challenging conditions, such as during “takeoff” and “landing” of the kites as well as during sudden changes in wind speed or direction. Solving these issues was critical to the success of kite energy.
 
 == [http://www.embocon.org EMBOCON] 2010 - 2013
 

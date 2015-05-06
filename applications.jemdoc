@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{applications.html}
+# jemdoc: menu{MENU}{applications.html}, nofooter
 = Applications
 
 == Rotational Start-up of an Airborne Wind Energy System
@@ -10,7 +10,7 @@
 ~~~
 {}{raw}
 <div align="center">
-<iframe width="640" height="390" src="//www.youtube.com/embed/1UmN3MiR65E" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="390" src="http://www.youtube.com/embed/1UmN3MiR65E" frameborder="0" allowfullscreen></iframe>
 </div>
 ~~~
 \n
@@ -21,7 +21,7 @@ And what are we doing at KU Leuven? Among many amazing things, we are modeling, 
 ~~~
 {}{raw}
 <div align="center">
-<iframe width="640" height="390" src="//www.youtube.com/embed/qta9N8gNRyk" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="390" src="http://www.youtube.com/embed/qta9N8gNRyk" frameborder="0" allowfullscreen></iframe>
 </div>
 ~~~
 \n
@@ -50,7 +50,7 @@ The screen on the left serves for live feed of the data coming from sensors and 
 ~~~
 {}{raw}
 <div align="center">
-<iframe width="640" height="390" src="//www.youtube.com/embed/YuiSrqe7rlo" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="390" src="http://www.youtube.com/embed/YuiSrqe7rlo" frameborder="0" allowfullscreen></iframe>
 </div>
 ~~~
 \n
@@ -63,7 +63,7 @@ Results of the improved experiments are published in [http://www.ifac-papersonli
 ~~~
 {}{raw}
 <div align="center">
-<iframe width="640" height="390" src="//www.youtube.com/embed/QEf05rTS-BE" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="390" src="http://www.youtube.com/embed/QEf05rTS-BE" frameborder="0" allowfullscreen></iframe>
 </div>
 ~~~
 \n
