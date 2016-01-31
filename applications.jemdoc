@@ -41,6 +41,8 @@ The screen on the left serves for live feed of the data coming from sensors and 
 - [http://www.acadotoolkit.org ACADO toolkit] -- code generation for NMPC and MHE
 - [http://www.casadi.org CasADi] -- nonlinear optimization and control, code generation for symbolics
 - [https://github.com/ghorn/rawesome rawesome] -- modeling environment for AWE
+- [https://github.com/giaf/hpmpc HPMPC] -- QP solver for linear MPC and MHE
+- [http://www.qpoases.org qpOASES] -- QP solver
 - [http://www.orocos.org OROCOS] -- everything real-time related
 - [http://www.pyqtgraph.org/ PyQtGraph] -- awesome real-time capable line plotter in Python (yes, in Python)
 

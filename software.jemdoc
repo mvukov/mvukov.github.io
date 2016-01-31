@@ -9,4 +9,4 @@ ACADO Toolkit is a software environment and algorithm collection for automatic c
 
 Recent developments of the toolkit mostly focus on fast auto-generated algorithms for fast nonlinear MPC and MHE as well as on standalone embedded integrators.
 
-More information about the toolkit can be found at the [http://www.acadotoolkit.org homepage] and in particular you can learn more about the code-generation tool (CGT) [http://acado.github.io/cgt\_overview.html here].
+More information about the toolkit can be found at the [http://www.acadotoolkit.org homepage] and in particular you can learn more about the code-generation tool (CGT) [http://acado.github.io/cgt_overview.html here].

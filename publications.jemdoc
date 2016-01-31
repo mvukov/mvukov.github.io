@@ -1,5 +1,0 @@
-# jemdoc: menu{MENU}{publications.html}, nofooter
-# jemdoc: addcss{bibtex.css}
-= Publications
-
-#includeraw{mvukov_jabref.html}
