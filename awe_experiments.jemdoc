@@ -24,7 +24,7 @@ And what were we doing at KU Leuven? Among many amazing things, we have used to 
 ~~~
 \n
 
-About you can see then work-in-progress video (Q4 2014) of a first person view on the Leuven kite carousel experiments. Here we demonstrated the closed loop performance with NMPC and MHE. The goal of the experiments was to achieve stable movements from one steady state to the other one, which are characterized mostly by the roll angle and the heigth of the plane.
+Above you can see then work-in-progress video (Q4 2014) of a first person view on the Leuven kite carousel experiments. Here we demonstrated the closed loop performance with NMPC and MHE. The goal of the experiments was to achieve stable movements from one steady state to the other one, which are characterized mostly by the roll angle and the height of the plane.
 
 The screen on the left serves for live feed of the data coming from sensors and the data the controllers send to the actuators:
 - upper row: gyroscope, accelerometer and winch data.
@@ -32,7 +32,9 @@ The screen on the left serves for live feed of the data coming from sensors and 
 
 You can see the MHE horizons on the screen on right. The current pose estimate is the one which is not shaded.
 
-The system is modelled with an index-3 DAE ($n_x$ = 27, $n_u$ = 4, $n_z$ = 1). Both MHE and the NMPC work at 25 Hz rate in a unified control-estimation cycle. Horizon for the MHE was set to be $N_\text{MHE} = 30$ intervals (1.2 seconds) and for the controller we chose $N_\text{NMPC} = 50$ intervals (2 seconds).
+The system was modeled with an index-3 DAE ($n_x$ = 27, $n_u$ = 4, $n_z$ = 1). Both MHE and the NMPC work at 25 Hz rate in a unified control-estimation cycle. Horizon for the MHE was set to be $N_\text{MHE} = 30$ intervals (1.2 seconds) and for the controller we chose $N_\text{NMPC} = 50$ intervals (2 seconds).
+
+Finally, about 4 years of team-work in the lab have been summarized in Chapter 6 of my [ftp://ftp.esat.kuleuven.be/pub/SISTA/mvukov/reports/thesis_final_print.pdf PhD thesis] and in [http://www.sciencedirect.com/science/article/pii/S0967066115300095 this paper]. The chapter has quite more details on the hardware setup, while the paper has more information regarding the results (the paper has been revised, corrected and published after the defense). Unfortunately, since my funding was running out and the team was considerably decimated, there is no comparison of performance of different controllers and estimators in the paper. That is the main reason why the paper has been written as (a yet another) application of MPC \& MHE using the ACADO code-generation tool' features, then indeed to a challenging system. To my knowledge, in 2015 (and possibly quite a bit afterwards) that paper presented the most challenging use-case of nonlinear MPC and MHE on a mechatronics system given the model dimensions and horizons of the controller and the estimator. Besides showing off real-world experiments and real-time capability of the implementation, we have also honestly reported unsatisfactory results and discussed limitations of the approach.
 
 == Links to some software used for experiments
 

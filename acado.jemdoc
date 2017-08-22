@@ -1,10 +1,8 @@
 # jemdoc: menu{MENU}{software.html}, nofooter
 = ACADO toolkit
 
-: {} Toolkit for Automatic Control and Dynamic Optimization
+: {} Toolkit for Automatic Control and Dynamic Optimization | [http://www.acadotoolkit.org]
 
 ACADO Toolkit is a software environment and algorithm collection for automatic control and dynamic optimization. It provides a general framework for using a great variety of algorithms for direct optimal control, including model predictive control, state and parameter estimation and robust optimization. ACADO Toolkit is implemented as self-contained C++ code and user-friendly API. The object-oriented design allows for convenient coupling of existing optimization packages and for extending it with user-written optimization routines.
 
-Recent developments of the toolkit mostly focus on fast auto-generated algorithms for fast nonlinear MPC and MHE as well as on standalone embedded integrators.
-
-More information about the toolkit can be found at the [http://www.acadotoolkit.org homepage] and in particular you can learn more about the code-generation tool (CGT) [http://acado.github.io/cgt_overview.html here].
+During my PhD days, the developments of ACADO used to be mostly focused around the auto-generated optimization solvers with idea to employ those on fast mechatronics systems. I have spent quite a bit of my time on the solvers for nonlinear MPC and MHE. Compared to the starting point of my developments, at the end of my PhD we achieved the state of far more capable package and an order of magnitude faster generated code. Besides algorithmic implementations, I contributed to the code base maintenance: we moved code repository to Git, set up continuous integration with a rudimentary testing system. For publications please refer to my [http://scholar.google.com/citations?user=gnSTyOMAAAAJ&hl=en&oi=ao Google Scholar] profile.
