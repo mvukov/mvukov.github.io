@@ -10,9 +10,9 @@
 ~~~
 \n
 
-This was the first application of an auto-generated Nonlinear Model Predictive Control (NMPC) from the CADO toolkit. The experiments are explained in details in [http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6315390 this publication]. Although the tracking is slow, we showed that we can run the so-called *r*eal-*t*ime *i*teration (RTI) scheme in hard real-time. Furthermore, experiments proved fast convergence rate of the RTI scheme. This implementation used a simple NMPC formulation and a simple estimator.
+This was the first application of an auto-generated Nonlinear Model Predictive Control (NMPC) from the ACADO toolkit. The experiments are explained in details in [http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6315390 this publication]. Although the tracking was slow, we showed that we can run the so-called *r*eal-*t*ime *i*teration (RTI) scheme in hard real-time. Furthermore, experiments proved fast convergence rate of the RTI scheme. This implementation used a simple NMPC formulation and a simple estimator.
 
-Results of the improved experiments are published in [http://www.ifac-papersonline.net/Detailed/68307.html this paper]. We used more detailed model, and more complex formulation for the NMPC. Moreover, this time we used Nonlinear Moving Horizon Estimation (NMHE) to more accurately estimate the system' states. As a result, faster motions are achieved. Below is the video of the improved experiments. Besides faster motions, we achieved faster execution times of the controller and the estimator: we used a newer version of the code generator.
+Results of the improved experiments are published in [http://www.ifac-papersonline.net/Detailed/68307.html this paper]. We used more detailed model, and more complex formulation for the NMPC. Moreover, this time we used Nonlinear Moving Horizon Estimation (NMHE) to more accurately estimate the system' states. As a result, faster motions are achieved. Below is the video of the improved experiments. Besides faster motions, we also achieved faster execution times of the controller and the estimator: we used a newer version of the code generator.
 
 \n
 ~~~
