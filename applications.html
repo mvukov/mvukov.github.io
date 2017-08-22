@@ -13,9 +13,8 @@
 <td id="layout-menu">
 <div class="menu-category">Milan Vukov</div>
 <div class="menu-item"><a href="index.html">Home</a></div>
-<div class="menu-item"><a href="cv.html">CV</a></div>
+<div class="menu-item"><a href="cv.html">About&nbsp;me</a></div>
 <div class="menu-category">PhD Research</div>
-<div class="menu-item"><a href="projects.html">Projects</a></div>
 <div class="menu-item"><a href="software.html">Software</a></div>
 <div class="menu-item"><a href="applications.html" class="current">Applications</a></div>
 <div class="menu-item"><a href="http://scholar.google.com/citations?user=gnSTyOMAAAAJ&hl=en&oi=ao">Google&nbsp;Scholar&nbsp;Profile</a></div>
@@ -32,37 +31,37 @@
 <iframe width="640" height="390" src="http://www.youtube.com/embed/1UmN3MiR65E" frameborder="0" allowfullscreen></iframe>
 </div>
 <p><br /></p>
-<p>And what are we doing at KU Leuven? Among many amazing things, we are modeling, simulating, optimizing and controlling AWE systems. Before the energy production, one needs to launch the kite in the sky. One way to do it is to utilize the concept of rotational start-up. We have made a small scale setup at our uni and we use that setup for testing and demonstration purposes. In particular, to play with fast algorithms and solvers for nonlinear Model Predictive Control (NMPC) and moving horizon estimation (MHE).</p>
+<p>And what were we doing at KU Leuven? Among many amazing things, we have used to spend huge amount of time modeling, simulating, optimizing and controlling AWE systems. Before the energy production, one needs to launch the kite in the sky. One way to do it is to utilize the concept of rotational start-up. We have made a small scale setup at our lab and we used that setup for testing and demonstration purposes. In particular, to play with fast algorithms and solvers for nonlinear Model Predictive Control (NMPC) and moving horizon estimation (MHE).</p>
 <p><br /></p>
 <div align="center">
 <iframe width="640" height="390" src="http://www.youtube.com/embed/qta9N8gNRyk" frameborder="0" allowfullscreen></iframe>
 </div>
 <p><br /></p>
-<p>This is a work-in-progress video of a first person view on the Leuven kite carousel experiments. Here we demonstrate the closed loop performance with NMPC and MHE. The goal of the experiments is to achieve stable movements from one steady state to the other one, which are characterized mostly by the roll angle of the plane and the height of the plane.</p>
-<p>The system is modelled with an index-3 DAE (\(n_x\) = 27, \(n_u\) = 4, \(n_z\) = 1). Both MHE and the NMPC work at 25 Hz. Horizon for the MHE is \(N_\text{MHE} = 30\) intervals (1.2 seconds) and for the controller \(N_\text{NMPC} = 50\) intervals (2 seconds).</p>
-<p>You can see the MHE horizons on the screen on right. The current pose estimate is the one which is not shaded.</p>
+<p>About you can see then work-in-progress video (Q4 2014) of a first person view on the Leuven kite carousel experiments. Here we demonstrated the closed loop performance with NMPC and MHE. The goal of the experiments was to achieve stable movements from one steady state to the other one, which are characterized mostly by the roll angle and the heigth of the plane.</p>
+<p>The system is modelled with an index-3 DAE (\(n_x\) = 27, \(n_u\) = 4, \(n_z\) = 1). Both MHE and the NMPC work at 25 Hz rate in a unified control-estimation cycle. Horizon for the MHE was set to be \(N_\text{MHE} = 30\) intervals (1.2 seconds) and for the controller we chose \(N_\text{NMPC} = 50\) intervals (2 seconds).</p>
 <p>The screen on the left serves for live feed of the data coming from sensors and the data the controllers send to the actuators:</p>
 <ul>
 <li><p>upper row: gyroscope, accelerometer and winch data.</p>
 </li>
-<li><p>lower row: control surfaces (ailerons and the elevator ctrl surfaces&rsquo; deflection angles), main motor speed and control, and the line angle sensor data.</p>
+<li><p>lower row: control surfaces (ailerons and the elevator control surfaces&rsquo; deflection angles), main motor speed and control, and the line angle sensor data.</p>
 </li>
 </ul>
+<p>You can see the MHE horizons on the screen on right. The current pose estimate is the one which is not shaded.</p>
 <h3>Links to some software used for experiments</h3>
 <ul>
 <li><p><a href="http://www.acadotoolkit.org" target=&ldquo;blank&rdquo;>ACADO toolkit</a> &ndash; code generation for nonlinear MPC and MHE</p>
 </li>
 <li><p><a href="http://www.casadi.org" target=&ldquo;blank&rdquo;>CasADi</a> &ndash; nonlinear optimization, code generation for symbolics</p>
 </li>
-<li><p><a href="https://github.com/ghorn/rawesome" target=&ldquo;blank&rdquo;>rawesome</a> &ndash; modeling environment for AWE</p>
-</li>
 <li><p><a href="https://github.com/giaf/hpmpc" target=&ldquo;blank&rdquo;>HPMPC</a> &ndash; QP solver for linear MPC and MHE</p>
-</li>
-<li><p><a href="http://www.qpoases.org" target=&ldquo;blank&rdquo;>qpOASES</a> &ndash; QP solver</p>
 </li>
 <li><p><a href="http://www.orocos.org" target=&ldquo;blank&rdquo;>OROCOS</a> &ndash; real-time middleware</p>
 </li>
 <li><p><a href="http://www.pyqtgraph.org/" target=&ldquo;blank&rdquo;>PyQtGraph</a> &ndash; real-time capable line plotter in Python (yes, in Python)</p>
+</li>
+<li><p><a href="http://www.qpoases.org" target=&ldquo;blank&rdquo;>qpOASES</a> &ndash; QP solver</p>
+</li>
+<li><p><a href="https://github.com/ghorn/rawesome" target=&ldquo;blank&rdquo;>rawesome</a> &ndash; modeling environment for AWE</p>
 </li>
 </ul>
 <h2>Application of the NMPC and MHE to a laboratory scale overhead crane</h2>
@@ -71,8 +70,8 @@
 <iframe width="640" height="390" src="http://www.youtube.com/embed/YuiSrqe7rlo" frameborder="0" allowfullscreen></iframe>
 </div>
 <p><br /></p>
-<p>This was the first application of an auto-generated NMPC from ACADO toolkit. The experiments are explained in details in <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6315390" target=&ldquo;blank&rdquo;>this publication</a>. Althought the tracking is slow, we showed that we can run the so-called <b>r</b>eal-<b>t</b>ime <b>i</b>teration (RTI) scheme in hard real-time. Furthermore, experiments proved fast convergence rate of the RTI scheme. This implementation used a simple NMPC formulation and a simple estimator.</p>
-<p>Results of the improved experiments are published in <a href="http://www.ifac-papersonline.net/Detailed/68307.html" target=&ldquo;blank&rdquo;>this paper</a>. We used more detailed model, and more complex formulation for the NMPC. Moreover, this time we used NMHE to properly estimate the states. As a results, faster motions are achieved. Here is the video of the improved experiments.</p>
+<p>This was the first application of an auto-generated NMPC from the CADO toolkit. The experiments are explained in details in <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6315390" target=&ldquo;blank&rdquo;>this publication</a>. Althought the tracking is slow, we showed that we can run the so-called <b>r</b>eal-<b>t</b>ime <b>i</b>teration (RTI) scheme in hard real-time. Furthermore, experiments proved fast convergence rate of the RTI scheme. This implementation used a simple NMPC formulation and a simple estimator.</p>
+<p>Results of the improved experiments are published in <a href="http://www.ifac-papersonline.net/Detailed/68307.html" target=&ldquo;blank&rdquo;>this paper</a>. We used more detailed model, and more complex formulation for the NMPC. Moreover, this time we used NMHE to more accurately estimate the system&rsquo; states. As a results, faster motions are achieved. Below is the video of the improved experiments.</p>
 <p><br /></p>
 <div align="center">
 <iframe width="640" height="390" src="http://www.youtube.com/embed/QEf05rTS-BE" frameborder="0" allowfullscreen></iframe>

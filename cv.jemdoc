@@ -1,22 +1,7 @@
 # jemdoc: menu{MENU}{cv.html}, nofooter
-= Curriculum Vitae
+= About me
 
-I was born in 1983 in [http://en.wikipedia.org/wiki/Vr%C5%A1ac Vršac] ({{<a href="http://en.wikipedia.org/wiki/Serbia"><img src="images/SerbianFlag.png" alt="SRB" width=25/></a>}}) and I am a proud husband of Snežana and father of Nikola and Luka.
-
-== Education
-~~~
-{}{table}{}
-2010 - 2015 | PhD studies at [http://www.kuleuven.be/kuleuven/ KU Leuven] ||
-	   		| Supervisor: Professor [http://www.syscop.de  Moritz Diehl] ||
-			| PhD thesis title: "Embedded Model Predictive Control an Moving Horizon Estimation for Mechatronics Applications" [ftp://ftp.esat.kuleuven.be/pub/SISTA/mvukov/reports/thesis_final_print.pdf \[PDF\]]||
-
-2002 - 2008 | [http://www.etf.bg.ac.rs/index.php?lang=en Faculty of Electrical Engineering (ETF)], 
-	   		  [http://www.bg.ac.rs/en_index.php University of Belgrade], 
-			  [http://en.wikipedia.org/wiki/Serbia Serbia] ||
-		   	| Graduated at Signals and Systems Department - five year programme equivalent to MSc degree\nAverage grade 9.21 out of 10.00 ||
-			| Diploma thesis title: “Design of software solutions based on USB interface for real-time\n measurement and control applications“. Supervisor: Professor [http://vukosavic.etf.bg.ac.rs/ Slobodan N. Vukosavić] ||
-1998 - 2002 | [http://www.mg.edu.rs/en Mathematical High School], Belgrade, Serbia
-~~~
+I was born in 1983 in [http://en.wikipedia.org/wiki/Vr%C5%A1ac Vršac], {{<a href="http://en.wikipedia.org/wiki/Serbia"><img src="images/SerbianFlag.png" alt="Serbia" width=25/></a>}} and I am a proud husband of Snežana and father of Nikola and Luka.
 
 == Work experience
 ~~~
@@ -29,7 +14,20 @@ June 2013   | [http://www.ampyxpower.com/ Ampyx Power], The Hague, The Netherlan
 			| Position: engineering intern || 
 2010		| [http://www.pupin.rs/en/ Mihajlo Pupin Institute], Belgrade, Serbia ||
 		   	| Position: R&D engineer at the [http://www.pupin.rs/RnDProfile/index.html Robotics laboratory] ||
-2008 - 2009	| Faculty of Electrical Engineering (ETF), University of Belgrade, Serbia ||
+2008 - 2009	| [http://www.etf.bg.ac.rs/index.php?lang=en Faculty of Electrical Engineering (ETF)], 
+	   		  [http://www.bg.ac.rs/en_index.php University of Belgrade], Serbia ||
 		 	| Position: R&D engineer at [http://ddc.etf.rs Laboratory for digital control of power converters and drives]
 ~~~
 
+== Education
+~~~
+{}{table}{}
+2010 - 2015 | PhD studies at [http://www.kuleuven.be/kuleuven/ KU Leuven] ||
+	   		| Supervisor: Professor [http://www.syscop.de  Moritz Diehl] ||
+			| PhD thesis title: "Embedded Model Predictive Control an Moving Horizon Estimation for Mechatronics Applications" [ftp://ftp.esat.kuleuven.be/pub/SISTA/mvukov/reports/thesis_final_print.pdf \[PDF\]]||
+
+2002 - 2008 | Faculty of Electrical Engineering (ETF), University of Belgrade, Serbia ||
+		   	| Graduated at Signals and Systems Department - five year programme equivalent to MSc degree\nAverage grade 9.21 out of 10.00 ||
+			| Diploma thesis title: “Design of software solutions based on USB interface for real-time\n measurement and control applications“. Supervisor: Professor [http://vukosavic.etf.bg.ac.rs/ Slobodan N. Vukosavić] ||
+1998 - 2002 | [http://www.mg.edu.rs/en Mathematical Grammar School], Belgrade, Serbia
+~~~

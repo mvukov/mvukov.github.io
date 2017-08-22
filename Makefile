@@ -1,4 +1,4 @@
-DOCS = index cv projects software applications
+DOCS = index cv software applications
 HDOCS=$(addsuffix .html, $(DOCS))
 
 all: $(HDOCS)
