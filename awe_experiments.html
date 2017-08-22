@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Applications</title>
+<title>Rotational Start-up of an Airborne Wind Energy System</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -16,14 +16,14 @@
 <div class="menu-item"><a href="cv.html">About&nbsp;me</a></div>
 <div class="menu-category">PhD Research</div>
 <div class="menu-item"><a href="software.html">Software</a></div>
-<div class="menu-item"><a href="applications.html" class="current">Applications</a></div>
+<div class="menu-item"><a href="crane_experiments.html">Overhead&nbsp;Crane&nbsp;Experiments</a></div>
+<div class="menu-item"><a href="awe_experiments.html">AWE&nbsp;Experiments</a></div>
 <div class="menu-item"><a href="http://scholar.google.com/citations?user=gnSTyOMAAAAJ&hl=en&oi=ao">Google&nbsp;Scholar&nbsp;Profile</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Applications</h1>
+<h1>Rotational Start-up of an Airborne Wind Energy System</h1>
 </div>
-<h2>Rotational Start-up of an Airborne Wind Energy System</h2>
 <p><br />
 <i>Alright, what is Airborne Wind Energy (AWE) about?</i> Good one, you can find more about it <a href="http://en.wikipedia.org/wiki/Airborne\_wind\_turbine" target=&ldquo;blank&rdquo;>here</a> or just take a look at the video below.</p>
 <p><br /></p>
@@ -38,7 +38,6 @@
 </div>
 <p><br /></p>
 <p>About you can see then work-in-progress video (Q4 2014) of a first person view on the Leuven kite carousel experiments. Here we demonstrated the closed loop performance with NMPC and MHE. The goal of the experiments was to achieve stable movements from one steady state to the other one, which are characterized mostly by the roll angle and the heigth of the plane.</p>
-<p>The system is modelled with an index-3 DAE (\(n_x\) = 27, \(n_u\) = 4, \(n_z\) = 1). Both MHE and the NMPC work at 25 Hz rate in a unified control-estimation cycle. Horizon for the MHE was set to be \(N_\text{MHE} = 30\) intervals (1.2 seconds) and for the controller we chose \(N_\text{NMPC} = 50\) intervals (2 seconds).</p>
 <p>The screen on the left serves for live feed of the data coming from sensors and the data the controllers send to the actuators:</p>
 <ul>
 <li><p>upper row: gyroscope, accelerometer and winch data.</p>
@@ -47,7 +46,8 @@
 </li>
 </ul>
 <p>You can see the MHE horizons on the screen on right. The current pose estimate is the one which is not shaded.</p>
-<h3>Links to some software used for experiments</h3>
+<p>The system is modelled with an index-3 DAE (\(n_x\) = 27, \(n_u\) = 4, \(n_z\) = 1). Both MHE and the NMPC work at 25 Hz rate in a unified control-estimation cycle. Horizon for the MHE was set to be \(N_\text{MHE} = 30\) intervals (1.2 seconds) and for the controller we chose \(N_\text{NMPC} = 50\) intervals (2 seconds).</p>
+<h2>Links to some software used for experiments</h2>
 <ul>
 <li><p><a href="http://www.acadotoolkit.org" target=&ldquo;blank&rdquo;>ACADO toolkit</a> &ndash; code generation for nonlinear MPC and MHE</p>
 </li>
@@ -64,19 +64,6 @@
 <li><p><a href="https://github.com/ghorn/rawesome" target=&ldquo;blank&rdquo;>rawesome</a> &ndash; modeling environment for AWE</p>
 </li>
 </ul>
-<h2>Application of the NMPC and MHE to a laboratory scale overhead crane</h2>
-<p><br /></p>
-<div align="center">
-<iframe width="640" height="390" src="http://www.youtube.com/embed/YuiSrqe7rlo" frameborder="0" allowfullscreen></iframe>
-</div>
-<p><br /></p>
-<p>This was the first application of an auto-generated NMPC from the CADO toolkit. The experiments are explained in details in <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6315390" target=&ldquo;blank&rdquo;>this publication</a>. Althought the tracking is slow, we showed that we can run the so-called <b>r</b>eal-<b>t</b>ime <b>i</b>teration (RTI) scheme in hard real-time. Furthermore, experiments proved fast convergence rate of the RTI scheme. This implementation used a simple NMPC formulation and a simple estimator.</p>
-<p>Results of the improved experiments are published in <a href="http://www.ifac-papersonline.net/Detailed/68307.html" target=&ldquo;blank&rdquo;>this paper</a>. We used more detailed model, and more complex formulation for the NMPC. Moreover, this time we used NMHE to more accurately estimate the system&rsquo; states. As a results, faster motions are achieved. Below is the video of the improved experiments.</p>
-<p><br /></p>
-<div align="center">
-<iframe width="640" height="390" src="http://www.youtube.com/embed/QEf05rTS-BE" frameborder="0" allowfullscreen></iframe>
-</div>
-<p><br /></p>
 </td>
 </tr>
 </table>

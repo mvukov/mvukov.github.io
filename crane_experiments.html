@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Software projects</title>
+<title>NMPC and MHE to a laboratory scale overhead crane</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -15,23 +15,27 @@
 <div class="menu-item"><a href="index.html">Home</a></div>
 <div class="menu-item"><a href="cv.html">About&nbsp;me</a></div>
 <div class="menu-category">PhD Research</div>
-<div class="menu-item"><a href="software.html" class="current">Software</a></div>
+<div class="menu-item"><a href="software.html">Software</a></div>
 <div class="menu-item"><a href="crane_experiments.html">Overhead&nbsp;Crane&nbsp;Experiments</a></div>
 <div class="menu-item"><a href="awe_experiments.html">AWE&nbsp;Experiments</a></div>
 <div class="menu-item"><a href="http://scholar.google.com/citations?user=gnSTyOMAAAAJ&hl=en&oi=ao">Google&nbsp;Scholar&nbsp;Profile</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Software projects</h1>
+<h1>NMPC and MHE to a laboratory scale overhead crane</h1>
 </div>
-<h1>ACADO toolkit</h1>
-<dl>
-<dt></dt>
-<dd><p>Toolkit for Automatic Control and Dynamic Optimization</p></dd>
-</dl>
-<p>ACADO Toolkit is a software environment and algorithm collection for automatic control and dynamic optimization. It provides a general framework for using a great variety of algorithms for direct optimal control, including model predictive control, state and parameter estimation and robust optimization. ACADO Toolkit is implemented as self-contained C<tt></tt> code and comes along with user-friendly MATLAB interface. The object-oriented design allows for convenient coupling of existing optimization packages and for extending it with user-written optimization routines.</p>
-<p>Recent developments of the toolkit mostly focus on fast auto-generated algorithms for fast nonlinear MPC and MHE as well as on standalone embedded integrators.</p>
-<p>More information about the toolkit can be found at the <a href="http://www.acadotoolkit.org" target=&ldquo;blank&rdquo;>homepage</a> and in particular you can learn more about the code-generation tool (CGT) <a href="http://acado.github.io/cgt_overview.html" target=&ldquo;blank&rdquo;>here</a>.</p>
+<p><br /></p>
+<div align="center">
+<iframe width="640" height="390" src="http://www.youtube.com/embed/YuiSrqe7rlo" frameborder="0" allowfullscreen></iframe>
+</div>
+<p><br /></p>
+<p>This was the first application of an auto-generated Nonlinear Model Predictive Control (NMPC) from the CADO toolkit. The experiments are explained in details in <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6315390" target=&ldquo;blank&rdquo;>this publication</a>. Althought the tracking is slow, we showed that we can run the so-called <b>r</b>eal-<b>t</b>ime <b>i</b>teration (RTI) scheme in hard real-time. Furthermore, experiments proved fast convergence rate of the RTI scheme. This implementation used a simple NMPC formulation and a simple estimator.</p>
+<p>Results of the improved experiments are published in <a href="http://www.ifac-papersonline.net/Detailed/68307.html" target=&ldquo;blank&rdquo;>this paper</a>. We used more detailed model, and more complex formulation for the NMPC. Moreover, this time we used Nonlinear Moving Horizon Estimation (NMHE) to more accurately estimate the system&rsquo; states. As a result, faster motions are achieved. Below is the video of the improved experiments.</p>
+<p><br /></p>
+<div align="center">
+<iframe width="640" height="390" src="http://www.youtube.com/embed/QEf05rTS-BE" frameborder="0" allowfullscreen></iframe>
+</div>
+<p><br /></p>
 </td>
 </tr>
 </table>
