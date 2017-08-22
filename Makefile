@@ -1,4 +1,4 @@
-DOCS = index cv software awe_experiments crane_experiments
+DOCS = index cv acado awe_experiments crane_experiments
 HDOCS=$(addsuffix .html, $(DOCS))
 
 all: $(HDOCS)
