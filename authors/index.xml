@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Milan Vukov</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I was born in 1983 in &lt;a href=&#34;http://en.wikipedia.org/wiki/Vr%C5%A1ac&#34; target=&#34;_blank&#34;&gt;Vršac&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/Serbia&#34; target=&#34;_blank&#34;&gt;Serbia&lt;/a&gt; and I am a proud husband of Snežana and the father of Nikola and Luka.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
