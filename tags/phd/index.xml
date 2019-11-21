@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PhD | Milan Vukov</title>
-    <link>/tags/phd/</link>
-      <atom:link href="/tags/phd/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mvukov.github.io/tags/phd/</link>
+      <atom:link href="https://mvukov.github.io/tags/phd/index.xml" rel="self" type="application/rss+xml" />
     <description>PhD</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://mvukov.github.io/img/icon-192.png</url>
       <title>PhD</title>
-      <link>/tags/phd/</link>
+      <link>https://mvukov.github.io/tags/phd/</link>
     </image>
     
     <item>
       <title>ACADO Toolkit</title>
-      <link>/project/acado/</link>
+      <link>https://mvukov.github.io/project/acado/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/project/acado/</guid>
+      <guid>https://mvukov.github.io/project/acado/</guid>
       <description>&lt;p&gt;ACADO Toolkit is a software environment and algorithm collection for automatic control and dynamic optimization. It provides a general framework for using a great variety of algorithms for direct optimal control, including model predictive control, state and parameter estimation and robust optimization. ACADO Toolkit is implemented as a self-contained C++ code and user-friendly API. The object-oriented design allows for convenient coupling of existing optimization packages and for extending it with user-written optimization routines.&lt;/p&gt;
 
 &lt;p&gt;During my PhD days, the developments of ACADO used to be mostly focused around the auto-generated optimization solvers with the idea to employ those on fast mechatronics systems. I have spent quite a bit of my time on the solvers for nonlinear MPC and MHE. Compared to the starting point of my developments, at the end of my PhD we achieved the state of far more capable package and an order of magnitude faster generated code. Besides algorithmic implementations, I contributed to the code base maintenance: we started using CMake as a build system, we moved code repository to Git and we set up a continuous integration system.&lt;/p&gt;
@@ -27,9 +27,9 @@
     
     <item>
       <title>MPC and MHE for a laboratory scale overhead crane</title>
-      <link>/project/crane_experiments/</link>
+      <link>https://mvukov.github.io/project/crane_experiments/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/project/crane_experiments/</guid>
+      <guid>https://mvukov.github.io/project/crane_experiments/</guid>
       <description>&lt;p&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/YuiSrqe7rlo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
@@ -54,9 +54,9 @@
     
     <item>
       <title>Rotational Start-up of an Airborne Wind Energy System</title>
-      <link>/project/awe_experiments/</link>
+      <link>https://mvukov.github.io/project/awe_experiments/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>/project/awe_experiments/</guid>
+      <guid>https://mvukov.github.io/project/awe_experiments/</guid>
       <description>
 
 &lt;p&gt;&lt;em&gt;Alright, what is Airborne Wind Energy (AWE) about?&lt;/em&gt; Good one, you can find more about it &lt;a href=&#34;http://en.wikipedia.org/wiki/Airborne_wind_turbine&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; or just watch the video below.&lt;/p&gt;
