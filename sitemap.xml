@@ -1,68 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://mvukov.github.io/project/acado/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/project/crane_experiments/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/tags/phd/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/project/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/project/awe_experiments/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/tags/</loc>
     <lastmod>2019-11-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/authors/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/post/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/publication/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://mvukov.github.io/talk/</loc>
   </url>
-  
 </urlset>
