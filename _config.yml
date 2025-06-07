@@ -1,0 +1,43 @@
+title: Milan Vukov
+description: Robotics Engineer
+url: "https://mvukov.github.io"
+baseurl: ""
+
+# Theme
+theme: minima
+# Or use: remote_theme: pages-themes/minimal@v0.2.0
+
+# Development settings
+livereload: true
+incremental: true
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections for projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Default settings for collections
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Social links (optional)
+github_username: mvukov
+
+# Navigation
+header_pages:
+  - index.md
+  - projects.md
