@@ -14,7 +14,7 @@ Interests
 * System design & integration
 * Software engineering
 
-# Experience
+# Work Experience
 
 * Senior robotics engineer, 2024 - present, [OTIV](http://www.otiv.ai), Ghent, Belgium
 * Senior software engineer, 2022 - 2024, [Oqton](http://www.oqton.com), Ghent, Belgium

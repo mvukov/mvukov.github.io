@@ -36,6 +36,8 @@ plugins:
 
 # Social links (optional)
 github_username: mvukov
+google_analytics: UA-46671156-1
+linkedin_username: mvukov
 
 # Navigation
 header_pages:
