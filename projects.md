@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+description: Projects by Milan Vukov, including rules_ros2 (Bazel rules for ROS 2), the ACADO Toolkit, and experimental validations of nonlinear MPC and MHE.
 ---
 
 {% assign projects = site.projects | sort: "order", "last" %}
