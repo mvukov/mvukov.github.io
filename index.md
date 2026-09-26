@@ -20,7 +20,7 @@ Interests
 * Senior software engineer, 2022 - 2024, [Oqton](http://www.oqton.com), Ghent, Belgium
 * Senior software engineer, 2021, [The Toadi Order / EEVE](http://www.eeve.com/), Waregem, Belgium
 * Senior roboticist, 2019 - 2021, [Oqton](http://www.oqton.com), Ghent, Belgium
-* Robotics lead and senior software engineer, 2017 - 2019, [The Kobi Company](http://www.thekobi.com), Heverlee, Belgium
+* Robotics lead, 2017 - 2019, [The Kobi Company](http://www.thekobi.com), Heverlee, Belgium
 * Senior roboticist, 2016 - 2017, [Intermodalics](http://www.intermodalics.eu), Heverlee, Belgium
 * Controls engineer, 2015 - 2016, [Punch Powertrain](http://www.punchpowertrain.com), Sint-Truiden, Belgium
 * Engineering intern, 2013, [Ampyx Power](http://www.ampyxpower.com), The Hague, The Netherlands
