@@ -52,6 +52,10 @@ social:
     - https://scholar.google.com/citations?user=gnSTyOMAAAAJ
     - https://www.researchgate.net/profile/Milan_Vukov
 
+# Google Search Console
+webmaster_verifications:
+  google: ja3u4LYRIP1Cr8hqULpgKJkm9Ki-ZVAel0ew1gxQhyM
+
 # Navigation (the site title already links home)
 header_pages:
   - projects.md
