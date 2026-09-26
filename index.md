@@ -16,7 +16,7 @@ Interests
 
 # Work Experience
 
-* Senior robotics engineer, 2024 - present, [OTIV](http://www.otiv.ai), Ghent, Belgium
+* Robotics software architect, 2024 - present, [OTIV](http://www.otiv.ai), Ghent, Belgium
 * Senior software engineer, 2022 - 2024, [Oqton](http://www.oqton.com), Ghent, Belgium
 * Senior software engineer, 2021, [The Toadi Order / EEVE](http://www.eeve.com/), Waregem, Belgium
 * Senior roboticist, 2019 - 2021, [Oqton](http://www.oqton.com), Ghent, Belgium
