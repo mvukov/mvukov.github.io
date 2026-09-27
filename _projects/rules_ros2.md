@@ -88,11 +88,11 @@ Autonomous Systems Technology (TAS) at Universität der Bundeswehr München, and
 
 ## Why Bazel for robotics?
 
-Robotics stacks mix C++, Python, Rust, CUDA, generated code and firmware. They often target
-several architectures and have to be reproducible for safety and certification. Bazel handles
+Robotics stacks built on ROS 2 mix C++, Python, Rust and CUDA. They often target several
+architectures and sometimes have to be reproducible for safety and certification. Bazel handles
 that well: hermetic toolchains, remote caching and execution, precise incremental builds, and one
-dependency graph from message definitions to deployable images. ROS 2 was the missing piece.
-rules_ros2 lets you keep the ROS ecosystem without giving up that build discipline.
+dependency graph from message definitions to deployable images. rules_ros2 lets you use the ROS
+ecosystem without giving any of that up.
 
 ## Related
 

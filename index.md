@@ -20,7 +20,7 @@ and moving horizon estimation (MHE).
 
 * Robotics software architect, 2024 - present, [OTIV](https://www.otiv.ai), Ghent, Belgium
 * Senior software engineer, 2022 - 2024, [Oqton](https://www.oqton.com), Ghent, Belgium
-* Senior software engineer, 2021, The Toadi Order / EEVE, Waregem, Belgium
+* Senior robotics engineer, 2021, The Toadi Order / EEVE, Waregem, Belgium
 * Senior roboticist, 2019 - 2021, [Oqton](https://www.oqton.com), Ghent, Belgium
 * Robotics lead, 2017 - 2019, [The Kobi Company](https://www.thekobi.com), Heverlee, Belgium
 * Senior roboticist, 2016 - 2017, [Intermodalics](https://www.intermodalics.eu), Heverlee, Belgium
